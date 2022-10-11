@@ -34,7 +34,7 @@ public class TNumValidator {
             }
         }
 
-        output.append("Number of valid T-Numbers entered: 3\nList of valid T-Numbers:\n\n");
+        output.append("Number of valid T-Numbers entered: ").append(allTNums.length).append("\nList of valid T-Numbers:\n\n");
         for (String str:allTNums) output.append(str).append("\n");
 
         JOptionPane.showMessageDialog(null, output,"Valid T-Numbers", JOptionPane.INFORMATION_MESSAGE);
